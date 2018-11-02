@@ -43,10 +43,10 @@ describe('age.js', function () {
         })
 
         it('should return true is age greather than 18', function () {
-            expect(age.isMan(18)).to.be(true);
-            expect(age.isMan(20)).to.be(true);
-            expect(age.isMan(17)).to.be(false);
-            expect(age.isMan(16)).to.be(false);
+            expect(age.isAdult(18)).to.be(true);
+            expect(age.isAdult(20)).to.be(true);
+            expect(age.isAdult(17)).to.be(false);
+            expect(age.isAdult(16)).to.be(false);
         })
     })
 
