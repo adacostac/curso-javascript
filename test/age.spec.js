@@ -4,7 +4,7 @@ var expect = require('expect.js');
 describe('age.js', function () {
     describe('getAgeType', function () {
         it('shoul be a function', function () {
-            expect(typeof age === 'function')
+            expect(typeof age.getAgeType).to.be('function');
         })
 
         it('should return boy if age of person lesser than 18', function () {

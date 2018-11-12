@@ -1,7 +1,7 @@
 {
   "name": "curso-javascript",
   "version": "0.1.0",
-  "description": "curso-javascript\r ================",
+  "description": "curso-javascript",
   "main": "index.js",
   "directories": {
     "doc": "doc"
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/adacostac/curso-javascript#readme",
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "eslint": "^5.8.0"
   }
 }
