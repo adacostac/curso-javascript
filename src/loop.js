@@ -36,7 +36,6 @@ var reservePyramid = function (number) {
 
   while (forever) {
     if (ite >= number) { break; }
-    console.log(repeatNumber(number - ite));
     ite = ite + 1;
   }
 };
