@@ -7,7 +7,9 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "mocha test/**/*.spec.js"
+    "test": "mocha test/**/*.spec.js",
+    "globalScope:browser": "http-server src/globalScope/browser",
+    "globalScope:node": "node src/globalScope/node/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,8 @@
     "expect.js": "^0.3.1",
     "mocha": "^5.2.0",
     "eslint": "^5.8.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
   }
 }
