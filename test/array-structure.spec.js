@@ -1,7 +1,7 @@
 var array = require('../src/array-structure.js');
 var expect = require('expect.js');
 
-describe.only('array-structure.js', function () {
+describe('array-structure.js', function () {
   describe('at', function () {
     it('shoul be a function', function () {
       expect(typeof array.at).to.be('function');
