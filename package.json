@@ -9,7 +9,8 @@
   "scripts": {
     "test": "mocha test/**/*.spec.js",
     "globalScope:browser": "http-server src/globalScope/browser",
-    "globalScope:node": "node src/globalScope/node/index.js"
+    "globalScope:node": "node src/globalScope/node/index.js",
+    "start": "node src/exception-handling/main.js"
   },
   "repository": {
     "type": "git",

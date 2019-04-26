@@ -1,0 +1,10 @@
+var b = 'bar';
+var c = 'cox';
+
+var foo = function sum() {
+  var a = 'foo';
+
+  console.log(a + b);
+};
+
+module.exports = foo;
