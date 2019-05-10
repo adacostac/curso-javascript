@@ -1,3 +1,3 @@
 (function () {
-    console.log('bar.js: foo: ' + foo);
+    //console.log('bar.js: foo: ' + foo);
 })();

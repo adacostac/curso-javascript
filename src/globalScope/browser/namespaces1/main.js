@@ -1,3 +1,3 @@
 (function () {
-    console.log(JSON.stringify(window.mynamespace, null, 4))
+    //console.log(JSON.stringify(window.mynamespace, null, 4))
 })();

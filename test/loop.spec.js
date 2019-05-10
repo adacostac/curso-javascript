@@ -23,9 +23,4 @@ describe('Loop', function () {
       expect(loop.pyramid(2)).to.be('1\n22');
     });
   });
-
-  // describe('reservePyramid', function () {
-
-  // });
-
 });

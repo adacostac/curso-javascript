@@ -2,7 +2,7 @@ var filter = require('../src/array-methods2/filter.js');
 var expect = require('expect.js');
 var stub = require('../test/filter.stub.js');
 
-describe.only('Filter method 2', function () {
+describe('Filter method 2', function () {
   describe('Filter By getNames', function () {
     it('should be a function', function () {
       expect(typeof filter.getNames).to.be('function');

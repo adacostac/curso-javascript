@@ -63,4 +63,4 @@ function suma() {
 
 }
 
-console.log(suma(5,10,20));
+//console.log(suma(5,10,20));

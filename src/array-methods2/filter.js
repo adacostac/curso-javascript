@@ -53,8 +53,6 @@ var getElderNames = function (arr, minAge) {
 
 };
 
-console.log(getElderNames(stub.person, 30));
-
 module.exports = {
   getNames,
   filterElders,
