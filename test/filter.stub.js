@@ -8,13 +8,7 @@ module.exports = {
     { age: 28, name: 'Davi' },
     { age: 26, name: 'Marc' }
   ],
-  filterAge1: [
-    'Pau',
-    'Alice',
-    'Jose',
-    'Titu'
-  ],
-  filterAge2: [
+  filterByName: [
     'Pau',
     'Alice',
     'Jose',
@@ -28,5 +22,11 @@ module.exports = {
     { age: 30, name: 'Alice' },
     { age: 31, name: 'Jose' },
     { age: 36, name: 'Titu' },
+  ],
+  filterEldersName: [
+    'Pau',
+    'Alice',
+    'Jose',
+    'Titu',
   ]
 };

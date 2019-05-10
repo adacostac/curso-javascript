@@ -2,7 +2,7 @@ var filter = require('../src/array-methods/filter.js');
 var expect = require('expect.js');
 var stub = require('../test/filter.stub.js');
 
-describe.only('Filter By Age', function () {
+describe('Filter By Age', function () {
   describe('Filter By Age functions', function () {
     it('should be a function', function () {
       expect(typeof filter.getEldersFor).to.be('function');
