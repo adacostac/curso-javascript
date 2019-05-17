@@ -1,8 +1,5 @@
 function romanNumerals(num) {
-
   if (num < 1) { return ''; }
-  /* if (num === 4 ) { return 'IV'; }
-  if (num === 14 ) { return 'XIV'; } */
   var message = '';
 
   // PINTAR M
@@ -70,6 +67,5 @@ function repeatCharacter(char, num) {
 
   return message;
 }
-
 
 module.exports = { romanNumerals: romanNumerals };
