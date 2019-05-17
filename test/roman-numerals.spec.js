@@ -1,7 +1,7 @@
 var roman = require('../src/dojo/roman-numerals.js');
 var expect = require('expect.js');
 
-describe.only('Roman Numerals', function () {
+describe('Roman Numerals', function () {
   describe('function transformRomanNumerals', function () {
     it('should be a function', function () {
       expect(typeof roman.transformRomanNumerals).to.be('function');
