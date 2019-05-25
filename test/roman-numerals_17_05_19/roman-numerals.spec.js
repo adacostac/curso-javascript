@@ -1,7 +1,7 @@
 var roman = require('../../src/dojo_17_05_19/roman-numerals.js');
 var expect = require('expect.js');
 
-describe.only('Roman Numerals', function () {
+describe('Roman Numerals', function () {
   describe('function romanNumerals', function () {
     it('should be a function', function () {
       expect(typeof roman.romanNumerals).to.be('function');
@@ -66,6 +66,7 @@ describe.only('Roman Numerals', function () {
     it('debería pintar un 9 en las decenas un XC', function () {
       expect(roman.romanNumerals(90)).to.be('XC');
       expect(roman.romanNumerals(91)).to.be('XCI');
+      expect(roman.romanNumerals(1989)).to.be('MCMLXXXIX');
     });
   });
 });
